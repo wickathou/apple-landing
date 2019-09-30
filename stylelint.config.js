@@ -22,8 +22,6 @@ module.exports = {
     "block-opening-brace-space-before": "always",
     "color-hex-case": "lower",
     "color-hex-length": "short",
-    "comment-empty-line-before": "never",
-    "comment-whitespace-inside": "never",
     "custom-property-empty-line-before": [ "always", {
       except: [
         "after-custom-property",
@@ -32,6 +30,8 @@ module.exports = {
       ignore: [
         "after-comment",
         "inside-single-line-block",
+        "comment-empty-line-before",
+        "comment-whitespace-inside"
       ],
     } ],
     "declaration-bang-space-after": "never",

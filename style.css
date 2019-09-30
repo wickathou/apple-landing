@@ -3,7 +3,6 @@
   padding: 0;
   margin: 0;
   text-decoration: none;
-  /* border: 1px solid black; */
 }
 
 body {
@@ -17,6 +16,7 @@ body {
 }
 
 /* ////////////////////////////////////////// */
+
 /* Background/images/colors */
 
 .nav-links {
@@ -95,6 +95,7 @@ body {
 }
 
 /* ////////////////////////////////////////////// */
+
 /* Positioning/Display*/
 
 /* class specific */
@@ -291,5 +292,5 @@ ul {
 }
 
 .font-nav {
-  color: #ffffff;
+  color: #fff;
 }

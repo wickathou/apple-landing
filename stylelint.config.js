@@ -22,11 +22,11 @@ module.exports = {
     "block-opening-brace-space-before": "always",
     "color-hex-case": "lower",
     "color-hex-length": "short",
-    "comment-empty-line-before": [ "always", {
+    "comment-empty-line-before": [ "never", {
       except: ["first-nested"],
       ignore: ["stylelint-commands"],
     } ],
-    "comment-whitespace-inside": "always",
+    "comment-whitespace-inside": "never",
     "custom-property-empty-line-before": [ "always", {
       except: [
         "after-custom-property",
@@ -44,7 +44,7 @@ module.exports = {
     "declaration-block-semicolon-space-before": "never",
     "declaration-block-single-line-max-declarations": 1,
     "declaration-block-trailing-semicolon": "always",
-    "declaration-colon-newline-after": "always-multi-line",
+    "declaration-colon-newline-after": "never",
     "declaration-colon-space-after": "always-single-line",
     "declaration-colon-space-before": "never",
     "declaration-empty-line-before": [ "always", {
